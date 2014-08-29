@@ -12,11 +12,11 @@
 * 部署django,参见django其它部署文档
 * 在settings.py中配置SVNROOT, SVNHOST
 * 在settings.py中配置mysql数据库
-* 安装httpd svn等环境::
+* 安装httpd svn等环境
+        python manager.py shell
 
-    python manager.py shell
-    >>from install import install
-    >>install()
+        >>from install import install
+        >>install()
 
 * 启动WEB服务::
 
@@ -24,25 +24,26 @@
 
 使用
 ---
-* 创建用户::
+* 创建用户
 
-    /users/<USERNAME>/new/
+        /users/<USERNAME>/new/
     
-* 删除用户::
+* 删除用户
 
-    /users/<USERNAME>/delete/
-* 创建项目::
+        /users/<USERNAME>/delete/
 
-    /users/<USERNAME>/<PROJECTNAME>/new/
+* 创建项目
+
+        /users/<USERNAME>/<PROJECTNAME>/new/
     
 * 删除项目
 
-    /users/<USERNAME>/<PROJECTNAME>/delete/
+        /users/<USERNAME>/<PROJECTNAME>/delete/
 
 * 用户列表
 
-    /users/
+        /users/
 
 * 项目列表
 
-    /users/<USERNAME>/
+        /users/<USERNAME>/
