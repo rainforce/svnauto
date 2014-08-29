@@ -13,14 +13,15 @@
 * 在settings.py中配置SVNROOT, SVNHOST
 * 在settings.py中配置mysql数据库
 * 安装httpd svn等环境
+
         python manager.py shell
 
         >>from install import install
         >>install()
 
-* 启动WEB服务::
+* 启动WEB服务
 
-    python manager.py runserver
+        python manager.py runserver
 
 使用
 ---
