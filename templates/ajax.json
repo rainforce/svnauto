@@ -1,0 +1,8 @@
+{
+	"status":"{% if result %}{{ result }}{% else %}sucess{% endif %}",
+	"msgs":[
+	{% for m in messages %}
+	"{{ m }}",
+	{% endfor %}
+	]
+}
